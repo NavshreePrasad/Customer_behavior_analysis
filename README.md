@@ -1,58 +1,228 @@
- 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-This project represents a complete, industry standard, end-to-end data analytics workflow. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
+# 🛍️ Customer Shopping Behavior Analysis Dashboard
 
-## 📌 Project Overview
+An end-to-end **Customer Shopping Behavior Analysis** project that leverages **Python, SQL, and Power BI** to analyze customer purchasing patterns, identify revenue drivers, evaluate subscription behavior, and uncover actionable business insights. The project transforms raw transactional data into interactive dashboards that support data-driven retail decision-making.
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+---
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+# 📖 Short Description
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+The **Customer Shopping Behavior Analysis Dashboard** is an interactive Business Intelligence solution designed to help retailers understand customer purchasing behavior across demographics, product categories, shopping preferences, discounts, subscriptions, and seasonal trends.
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+Using **3,900 customer transactions**, the project identifies spending patterns, customer segments, product performance, and purchase drivers that enable businesses to optimize marketing campaigns, improve customer retention, and increase revenue. The project combines **Python for data preparation, SQL for business analysis, and Power BI for visualization**, providing a complete end-to-end analytics workflow. :contentReference[oaicite:0]{index=0}
 
-![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
+---
 
-## 🛠️ How to Use This Project
+# 🛠 Tech Stack
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
-   ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+The project was built using the following tools and technologies:
 
-    This file contains:
+- 🐍 **Python** – Data cleaning, preprocessing, feature engineering, and exploratory data analysis
+- 📊 **Pandas & NumPy** – Data manipulation and transformation
+- 📈 **Matplotlib & Seaborn** – Exploratory data visualization
+- 🗄️ **PostgreSQL / MySQL** – Business queries and analytical reporting
+- 📊 **Power BI Desktop** – Interactive dashboard development
+- 🔄 **Power Query** – Data transformation and loading
+- 🧠 **DAX (Data Analysis Expressions)** – KPI calculations and dynamic measures
+- 📝 **Jupyter Notebook** – Python development environment
+- 📄 **Microsoft Word** – Project documentation
+- 🎤 **Gamma / PowerPoint** – Business presentation
+- 📁 **CSV Dataset** – Source data
 
-      - Data Import
+---
 
-      - Data exploration
+# 📂 Data Source
 
-      - Data cleaning
+**Dataset:** Customer Shopping Behavior Dataset
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+The dataset consists of **3,900 customer purchase transactions** with **18 attributes**, covering customer demographics, purchase details, shopping behavior, and subscription information. It includes **37 missing values** in the *Review Rating* column, which were handled during preprocessing. :contentReference[oaicite:1]{index=1}
 
-      - Create a database in SQL
+### Dataset includes:
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
+- Customer ID
+- Age
+- Gender
+- Location
+- Item Purchased
+- Product Category
+- Purchase Amount
+- Season
+- Color
+- Size
+- Review Rating
+- Discount Applied
+- Subscription Status
+- Previous Purchases
+- Shipping Type
+- Frequency of Purchases
 
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
+---
 
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
+# ✨ Features & Highlights
 
+## 📌 Business Problem
+
+Retail companies generate large volumes of transactional data every day, yet extracting meaningful insights from this data remains a challenge. Management wanted to better understand customer shopping behavior, identify purchasing trends, evaluate the impact of discounts and subscriptions, and improve marketing strategies through data-driven decision-making. Key business questions focused on customer demographics, product preferences, loyalty, and revenue optimization. :contentReference[oaicite:2]{index=2}
+
+---
+
+## 🎯 Goal of the Dashboard
+
+The dashboard was developed to:
+
+- Analyze customer purchasing behavior
+- Identify high-value customer segments
+- Measure the impact of discounts on sales
+- Evaluate subscription performance
+- Understand product and category preferences
+- Track revenue across demographics
+- Support strategic marketing and product decisions
+
+---
+
+# 📊 Walkthrough of Key Visuals
+
+### 🔹 KPI Cards
+
+The dashboard displays important business KPIs including:
+
+- 👥 Total Customers: **3.9K**
+- 💰 Average Order Value: **$59.76**
+- ⭐ Average Customer Rating: **3.75**
+- 👑 Subscribers: **27%** :contentReference[oaicite:3]{index=3}
+
+---
+
+### 🔹 Revenue by Gender
+
+Compares revenue generated by male and female customers to identify purchasing trends across genders.
+
+**Insight:** Male customers generated approximately **2.1× more revenue** than female customers. :contentReference[oaicite:4]{index=4}
+
+---
+
+### 🔹 Customer Segmentation
+
+Customers are classified into:
+
+- 🟢 Loyal Customers
+- 🟡 Returning Customers
+- 🔵 New Customers
+
+This segmentation supports targeted retention and loyalty campaigns. :contentReference[oaicite:5]{index=5}
+
+---
+
+### 🔹 Product Performance
+
+Highlights:
+
+- Top-rated products
+- Most purchased products
+- Most discounted products
+- Category-wise sales performance
+
+This helps identify best-selling products and products requiring promotional strategies. :contentReference[oaicite:6]{index=6}
+
+---
+
+### 🔹 Subscription Analysis
+
+Compares:
+
+- Subscriber revenue
+- Non-subscriber revenue
+- Average customer spending
+- Repeat purchase behavior
+
+Supporting subscription growth strategies. :contentReference[oaicite:7]{index=7}
+
+---
+
+### 🔹 Revenue by Age Group
+
+Analyzes purchasing behavior across different age groups to identify high-value customer segments.
+
+Key finding:
+
+- Young Adults generated the highest revenue.
+- Clothing was the highest-performing category across age groups. :contentReference[oaicite:8]{index=8}
+
+---
+
+### 🔹 Shipping Type Analysis
+
+Compares spending patterns between:
+
+- Standard Shipping
+- Express Shipping
+
+to understand customer preferences and delivery-related purchasing behavior. :contentReference[oaicite:9]{index=9}
+
+---
+
+### 🔹 Interactive Filters
+
+Users can dynamically filter dashboard visuals by:
+
+- Gender
+- Product Category
+- Season
+- Subscription Status
+- Age Group
+- Shipping Type
+
+making exploration intuitive and interactive.
+
+---
+
+# 💡 Business Impact & Insights
+
+The dashboard enables businesses to:
+
+### ✅ Improve Customer Retention
+
+Identify loyal and returning customers for personalized marketing.
+
+### ✅ Optimize Marketing Campaigns
+
+Target high-value customer segments based on demographics and purchase behavior.
+
+### ✅ Increase Subscription Adoption
+
+Evaluate subscriber purchasing behavior and promote exclusive benefits.
+
+### ✅ Improve Product Strategy
+
+Identify top-performing and discount-dependent products.
+
+### ✅ Enhance Revenue Growth
+
+Understand purchasing trends across age groups, product categories, and customer segments to optimize pricing and promotional strategies. Business recommendations include boosting subscriptions, implementing loyalty programs, reviewing discount policies, highlighting top-rated products, and focusing marketing on high-revenue age groups and express-shipping users. :contentReference[oaicite:10]{index=10}
+
+---
+
+<img width="614" height="341" alt="image" src="https://github.com/user-attachments/assets/d58b6aa4-26f4-4d94-bce6-a31bf7df22a8" />
+
+
+---
+
+# 📈 Key Insights
+
+- 👨 Male customers generated significantly higher revenue than female customers.
+- 💳 High-spending customers continued to purchase even after discounts.
+- ⭐ Gloves, Sandals, and Boots received the highest customer ratings.
+- 👑 Loyal customers represent the largest customer segment.
+- 🧥 Clothing generated the highest overall revenue.
+- 📦 Express shipping customers spent slightly more on average.
+- 🎯 Young Adults contributed the highest share of revenue. :contentReference[oaicite:11]{index=11}
+
+---
+
+# 🔮 Future Improvements
+
+- Predict customer churn using Machine Learning.
+- Build product recommendation models.
+- Perform customer lifetime value (CLV) analysis.
+- Deploy the dashboard to Power BI Service.
+- Integrate live transactional databases for real-time reporting.
 
