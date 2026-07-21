@@ -201,7 +201,8 @@ Understand purchasing trends across age groups, product categories, and customer
 
 ---
 
-<img width="614" height="341" alt="image" src="https://github.com/user-attachments/assets/d58b6aa4-26f4-4d94-bce6-a31bf7df22a8" />
+<img width="578" height="328" alt="image" src="https://github.com/user-attachments/assets/d5a05800-0615-4a24-821c-37453a93d6bb" />
+
 
 
 ---
